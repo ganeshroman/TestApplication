@@ -3,6 +3,13 @@ package com.example.testapplication;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
+
+/**
+ * Logical J Unit Test Case Runner
+ *
+ * @author Ganesh Roman
+ * Created on 8/2/22.
+ */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         ExampleUnitTest.class,

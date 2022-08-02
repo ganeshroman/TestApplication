@@ -5,6 +5,12 @@ import com.example.testapplication.models.ConvertUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Sample J Unit Test written
+ *
+ * @author Ganesh Roman
+ * Created on 8/2/22.
+ */
 public class LogicUnitTest {
     @Test
     public void addition_isCorrect() {

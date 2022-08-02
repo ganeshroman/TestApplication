@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Unit test sample activity
+ *
+ * @author Ganesh Roman
+ * Created on 8/2/22.
+ */
 public class HomeActivity extends AppCompatActivity {
 
     public static Intent createQuery(Context context, String query, String value) {
