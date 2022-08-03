@@ -1,7 +1,7 @@
 # Android J Unit Demo
 
 ## 1. The purpose of software tests
-### 1.1. What is software tests?
+### 1.1. Software Tests?
 A software test is a piece of software, which executes another pierce of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing).
 
 ### 1.2. How Software Tests are useful?
