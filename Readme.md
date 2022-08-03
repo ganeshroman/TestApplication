@@ -1,15 +1,15 @@
-# Android J Unit Sample
+# Android J Unit Demo
 
 ## 1. The purpose of software tests
-### 1.1. What are software tests?
+### 1.1. Software Tests?
 A software test is a piece of software, which executes another pierce of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing).
 
-### 1.2. Why are software tests helpful?
+### 1.2. How Software Tests are useful?
 Software unit tests help the developer to verify that the logic of a piece of the program is correct.
 
 Running tests automatically helps to identify software regressions introduced by changes in the source code. Having a high test coverage of your code allows you to continue developing features without having to perform lots of manual tests.
 
-### 1.3. Testing frameworks for Java
+### 1.3. Testing frameworks
 There are several testing frameworks available for Java. The most popular ones are JUnit and TestNG
 
 This description focuses on JUnit.
@@ -89,21 +89,21 @@ public class MyTests {
 
 
 
-## 4. Basic JUnit code constructs
-### 4.1. Available JUnit annotations
+## 4. Basic JUnit code construction
+### 4.1. JUnit annotations
 JUnit 4.x uses annotations to mark methods as test methods and to configure them. The following table gives an overview of the most important annotations in JUnit.
 
 #### Table 1. Annotations
 | Annotation    |	Description   |
 | ------------- |:-------------:|
-| @Test public void method() | The @Test annotation identifies a method as a test method. |
-| @Test (expected = Exception.class) | Fails if the method does not throw the named exception. |
+| @Test <br>public void method() | The @Test annotation identifies a method as a test method. |
+| @Test <br>(expected = Exception.class) | Fails if the method does not throw the named exception. |
 | @Test(timeout=100) | Fails if the method takes longer than 100 milliseconds. |
-| @Before public void method() | This method is executed before each test. It is used to prepare the test environment (e.g., read input data, initialize the class). |
-| @After public void method() | This method is executed after each test. It is used to cleanup the test environment (e.g., delete temporary data, restore defaults). It can also save memory by cleaning up expensive memory structures. |
-| @BeforeClass public static void method() | This method is executed once, before the start of all tests. It is used to perform time intensive activities, for example, to connect to a database. Methods marked with this annotation need to be defined as static to work with JUnit. |
-| @AfterClass public static void method() | This method is executed once, after all tests have been finished. It is used to perform clean-up activities, for example, to disconnect from a database. Methods annotated with this annotation need to be defined as static to work with JUnit. |
-| @Ignore or @Ignore("Why disabled") | Ignores the test method. This is useful when the underlying code has been changed and the test case has not yet been adapted. Or if the execution time of this test is too long to be included. It is best practice to provide the optional description, why the test is disabled. |
+| @Before <br>public void method() | This method is executed before each test. It is used to prepare the test environment (e.g., read input data, initialize the class). |
+| @After <br>public void method() | This method is executed after each test. It is used to cleanup the test environment (e.g., delete temporary data, restore defaults). It can also save memory by cleaning up expensive memory structures. |
+| @BeforeClass <br>public static void method() | This method is executed once, before the start of all tests. It is used to perform time intensive activities, for example, to connect to a database. Methods marked with this annotation need to be defined as static to work with JUnit. |
+| @AfterClass <br>public static void method() | This method is executed once, after all tests have been finished. It is used to perform clean-up activities, for example, to disconnect from a database. Methods annotated with this annotation need to be defined as static to work with JUnit. |
+| @Ignore or @Ignore<br>("Why disabled") | Ignores the test method. This is useful when the underlying code has been changed and the test case has not yet been adapted. Or if the execution time of this test is too long to be included. It is best practice to provide the optional description, why the test is disabled. |
 
 ### 4.2. Assert statements
 JUnit provides static methods to test for certain conditions via the Assert`class. These assert statements typically start with `assert . They allow you to specify the error message, the expected and the actual result. An assertion method compares the actual value returned by a test to the expected value. It throws an AssertionException if the comparison fails.
