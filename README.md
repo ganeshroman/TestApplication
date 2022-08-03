@@ -1,15 +1,15 @@
 # Android J Unit Demo
 
 ## 1. The purpose of software tests
-### 1.1. What are software tests?
+### 1.1. What is software tests?
 A software test is a piece of software, which executes another pierce of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing).
 
-### 1.2. Why are software tests helpful?
+### 1.2. How Software Tests are useful?
 Software unit tests help the developer to verify that the logic of a piece of the program is correct.
 
 Running tests automatically helps to identify software regressions introduced by changes in the source code. Having a high test coverage of your code allows you to continue developing features without having to perform lots of manual tests.
 
-### 1.3. Testing frameworks for Java
+### 1.3. Testing frameworks
 There are several testing frameworks available for Java. The most popular ones are JUnit and TestNG
 
 This description focuses on JUnit.
@@ -89,14 +89,14 @@ public class MyTests {
 
 
 
-## 4. Basic JUnit code constructs
-### 4.1. Available JUnit annotations
+## 4. Basic JUnit code construction
+### 4.1. JUnit annotations
 JUnit 4.x uses annotations to mark methods as test methods and to configure them. The following table gives an overview of the most important annotations in JUnit.
 
 #### Table 1. Annotations
 | Annotation    |	Description   |
 | ------------- |:-------------:|
-| @Test public void method() | The @Test annotation identifies a method as a test method. |
+| @Test <br>public void method() | The @Test annotation identifies a method as a test method. |
 | @Test (expected = Exception.class) | Fails if the method does not throw the named exception. |
 | @Test(timeout=100) | Fails if the method takes longer than 100 milliseconds. |
 | @Before public void method() | This method is executed before each test. It is used to prepare the test environment (e.g., read input data, initialize the class). |
