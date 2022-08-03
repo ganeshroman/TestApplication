@@ -13,8 +13,8 @@ import org.junit.runners.Suite;
 public class InstrumentationTestRunner {
 
     /*public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(ExampleUnitTest.class
-                );
+        Result result = JUnitCore.runClasses(ExampleInstrumentedTest.class
+        );
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }

@@ -33,6 +33,7 @@ public class LogicUnitTest {
         // Assert.assertTrue( boolean condition);
         // Assert.assertFalse(boolean condition);
         // Assert.assertNull( object);
+        // assertEquals("message failed", expected, actual, delta);
 
 
     }

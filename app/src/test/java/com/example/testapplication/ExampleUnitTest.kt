@@ -19,7 +19,7 @@ class ExampleUnitTest {
     @Test
     fun conversion_isCorrect() {
 
-        var input = 200.0f;
+        var input = 100.0f;
         var output: Float;
         var expected = 212f;
         var delta = .1f;

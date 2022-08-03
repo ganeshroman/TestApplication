@@ -131,7 +131,7 @@ public class MockitoTest {
         //verify(test, times(3)).getUniqueId(); // fail
 
         // other alternatives for verifiying the number of method calls for a method
-       /* verify(test, never()).someMethod("never called");
+        /*verify(test, never()).someMethod("never called");
         verify(test, atLeastOnce()).someMethod("called at least once");
         verify(test, atLeast(2)).someMethod("called at least twice");
         verify(test, times(5)).someMethod("called five times");
