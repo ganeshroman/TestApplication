@@ -1,4 +1,4 @@
-# Android J Unit Sample
+# Android J Unit Demo
 
 ## 1. The purpose of software tests
 ### 1.1. What are software tests?
