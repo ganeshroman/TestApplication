@@ -125,6 +125,18 @@ The following table gives an overview of these methods. Parameters in [] bracket
 
 
 
+### 4.3 JUnit methods:
+You encounter 3 new methods provided by JUnit Framework:
+
+
+| Statement	    | Description   |
+| ------------- |:-------------:|
+ | assertThat():  | As is evident by the name, this method lets you create custom assertions and not just true and false values. It takes in 3 arguments. A reason/description, input value to be checked, expected actual value. | 
+ | Is():  | Is method returns a Matcher to match the source object to the one provided as the parameter of is(); | 
+ | equalTo():  | As the name suggests, this method checks for equality between the expected and actual value. | 
+ | When():  | This is a very powerful method which takes in a method call as its parameter. It takes in the method call which is to be stubbed/duplicated. Once the method stub is executed, “then()” is called. | 
+ | thenReturn():  | It is called after the method stub provided in when() method has finished running. It is used to return the result of the method, if it is not void. | 
+
 
 ### 5.1. JUnit Classes
 
