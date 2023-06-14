@@ -4,7 +4,7 @@
 ### 1.1. Software Tests?
 A software test is a piece of software, which executes another piece of software. It validates if that code results in the expected state (state testing) or executes the expected sequence of events (behavior testing).
 
-### 1.2. How Software Tests are useful?
+### 1.2. How Software Tests are Useful?
 Software unit tests help the developer to verify that the logic of a piece of the program is correct.
 
 Running tests automatically helps to identify software regressions introduced by changes in the source code. Having a high test coverage of your code allows you to continue developing features without having to perform lots of manual tests.
